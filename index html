@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoniePay Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #f3f4f6; font-family: sans-serif; }
+        .purple-gradient { background: linear-gradient(135deg, #6b21a8, #9333ea); }
+    </style>
+</head>
+<body class="pb-20">
+    <div class="purple-gradient p-6 text-white rounded-b-3xl shadow-lg">
+        <div class="flex justify-between items-center mb-4">
+            <h1 class="text-xl font-bold text-white">Hi, Abubakar Usman 👋</h1>
+            <div class="bg-purple-400 p-2 rounded-full">🔔</div>
+        </div>
+        <p class="text-sm opacity-80 text-white">Your Balance</p>
+        <h2 class="text-4xl font-bold mt-1 text-white">₦180,000.00</h2>
+        <div class="flex gap-4 mt-6">
+            <button class="bg-white text-purple-700 px-6 py-2 rounded-full font-bold shadow-md w-full">Upgrade</button>
+            <button class="bg-purple-800 text-white px-6 py-2 rounded-full font-bold shadow-md w-full">Transfer</button>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4 p-6 text-center text-[10px] font-semibold text-gray-700">
+        <div><div class="bg-white p-4 rounded-2xl shadow-sm mb-1 text-xl">💳</div>Buy ID</div>
+        <div><div class="bg-white p-4 rounded-2xl shadow-sm mb-1 text-xl">📺</div>Watch</div>
+        <div><div class="bg-white p-4 rounded-2xl shadow-sm mb-1 text-xl">📱</div>Airtime</div>
+        <div><div class="bg-white p-4 rounded-2xl shadow-sm mb-1 text-xl">📂</div>Data</div>
+    </div>
+
+    <div class="mx-6 p-4 bg-purple-50 border-l-4 border-purple-600 rounded-lg shadow-sm">
+        <p class="text-purple-900 text-xs font-medium italic">"Gargadi: Wannan shafi ne na bincike don jami'an tsaro."</p>
+    </div>
+
+    <div class="fixed bottom-0 w-full bg-white flex justify-around p-4 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
+        <span class="text-purple-600 font-bold flex flex-col items-center"><span class="text-xl">🏠</span>Home</span>
+        <span class="text-gray-400 flex flex-col items-center"><span class="text-xl">📊</span>Activity</span>
+        <span class="text-gray-400 flex flex-col items-center"><span class="text-xl">💳</span>Cards</span>
+        <span class="text-gray-400 flex flex-col items-center"><span class="text-xl">👤</span>Profile</span>
+    </div>
+</body>
+</html>
